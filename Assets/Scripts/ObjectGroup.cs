@@ -10,11 +10,11 @@ public class ObjectGroup : MonoBehaviour
 
     private int _index = 0;
 
-    private void Start()
+/*    private void Start()
     {
         foreach (GameObject obj in GetComponentsInChildren<GameObject>())
             _objects.Add(obj.gameObject);
-    }
+    }*/
 
     public void SnapObject()
     {
